@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+# This tells the robot to use the newer, future-proof version!
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
